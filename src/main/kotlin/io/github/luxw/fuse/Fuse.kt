@@ -1,8 +1,6 @@
-/* ktlint-disable custom-ktlint-rules:no-header */
-
 @file:Suppress("LongMethod", "ComplexMethod", "NestedBlockDepth", "ReturnCount")
 
-package com.liebherr.hau.food.core.fuzzy
+package io.github.luxw.fuse
 
 import java.util.Locale
 import kotlin.math.floor

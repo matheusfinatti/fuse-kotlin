@@ -1,6 +1,4 @@
-/* ktlint-disable custom-ktlint-rules:no-header */
-
-package com.liebherr.hau.food.core.fuzzy
+package io.github.luxw.fuse
 
 import kotlin.math.abs
 
