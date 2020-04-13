@@ -45,7 +45,7 @@ object FuseUtilities {
 
         for (i in pattern.indices) {
             val c = pattern[i]
-            mask[c] = mask[c]!! or 1 shl (pattern.length - i - 1)
+            mask[c] = (mask[c] ?: 0) or (1 shl (pattern.length - i - 1))
         }
 
         return mask
